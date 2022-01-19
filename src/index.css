@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.navbar-button {
+	@apply p-2 rounded duration-200 hover:bg-gray-100;
+}
+
+.food-item {
+	@apply flex flex-col items-center bg-white rounded overflow-hidden shadow-md border-gray-200 mb-4 relative hover:scale-110 hover:shadow-2xl duration-150;
+}
+
+.category-title {
+	@apply z-10 py-2 mx-5 bg-gray-300 text-center sticky rounded shadow-md top-[55px];
+}
